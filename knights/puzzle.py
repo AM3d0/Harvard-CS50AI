@@ -65,7 +65,6 @@ knowledge2 = And(
 A_said_knight = Symbol('A said I am a knight')
 
 knowledge3 = And(
-    # TODO
     And(Or(AKnight, AKnave), Not(And(AKnight, AKnave))),
     
     And(Or(BKnight, BKnave), Not(And(BKnight, BKnave))),
